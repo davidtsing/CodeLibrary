@@ -135,17 +135,3 @@ with tf.Session() as sess:
             test_cost+=err;test_acc+=acc;batch_num+=1
         print("test cost:",test_cost/batch_num)
         print("test acc:",test_acc/batch_num)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
