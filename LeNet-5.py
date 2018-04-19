@@ -11,7 +11,7 @@ import numpy as np
 import glob
 import os
 
-#tf.reset_default_graph()
+tf.reset_default_graph()
 
 train_path = ".\\datasets\\mnist\\train\\"
 test_path = ".\\datasets\\mnist\\test\\"
